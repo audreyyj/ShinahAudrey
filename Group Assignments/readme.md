@@ -12,6 +12,14 @@ Instead, we look towards Asia -- specifically, to Seoul, South Korea. Seoul’s 
 ### Spatial Scope
 The official boundaries of Los Angeles County and the Seoul Metropolitan Area demarcate the spatial scope of this project. We seek to compare and contrast the physical form of the two, starting with their street grids and then exploring population density, bus and rail networks, ridership, and pedestrian networks. Our results will primarily reflect point-in-time snapshots of these variables, and we will seek to compare data from the same year where availability permits. 
 
+For a brief overview of the administrative divisions of [Los Angeles County](https://en.wikipedia.org/wiki/Government_of_Los_Angeles_County) and [Seoul Metropolitan Area](https://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea), see below: 
+ 
+>>>>Much of the Government of California is in practice the responsibility of county governments, such as the Government of Los Angeles County. The County government provides countywide services such as elections and voter registration, law enforcement, jails, vital records, property records, tax collection, public health, health care, and social services. In addition the County serves as the local government for all unincorporated areas.
+ 
+>>>>South Korea is made up of 17 first-tier administrative divisions: 6 metropolitan cities (gwangyeoksi 광역시), 1 special city (teukbyeolsi 특별시), 1 special self-governing city (teukbyeol-jachisi 특별자치시), and 9 provinces (do 도), including one special self-governing province (teukbyeol jachido 특별자치도). These are further subdivided into a variety of smaller entities, including cities (si 시), counties (gun 군), districts (gu 구), towns (eup 읍), townships (myeon 면), neighborhoods (dong 동) and villages (ri 리).
+
+We expect to use Census Tract level data for Los Angeles County and dong-level data for Seoul Metropolitan Area. 
+
 ### Data 
 We will examine data for the following information for both metropolitan areas: 
 * Boundaries 
