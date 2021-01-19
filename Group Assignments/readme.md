@@ -1,7 +1,7 @@
 # Project Proposal 
 ## Transit Oriented Development: What can Los Angeles learn from Seoul? 
 
-Los Angeles plans to invest a whopping $400 billion in its public transit system, over the next thirty years. LA Metro’s 2020 Long Range Transportation Plan aims for 21% of LA County residents and 36% of jobs to be “within a 10-minute walk of high-quality rail or bus rapid transit options.” It will be the largest-ever infrastructure investment in the nation’s history.
+Los Angeles plans to invest a whopping [$400 billion](https://www.google.com/url?q=https://www.itsinternational.com/its9/news/la-approves-400bn-30-year-transport-plan&sa=D&ust=1611101708988000&usg=AOvVaw3CBMGMMdDWrwvPh7dS4IuI) in its public transit system, over the next thirty years. LA Metro’s 2020 Long Range Transportation Plan aims for 21% of LA County residents and 36% of jobs to be “within a 10-minute walk of high-quality rail or bus rapid transit options.” It will be the largest-ever infrastructure investment in the nation’s history.
 
 What will a transit-oriented Los Angeles look like? It does not have much of a domestic example to look to; American public transit infrastructure lags terribly behind in function, comfort, and safety, and transit ridership has fallen in every city except NYC since 2012 despite improvements.  
 
