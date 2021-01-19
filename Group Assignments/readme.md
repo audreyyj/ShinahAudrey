@@ -1,0 +1,1 @@
+Los Angeles plans to invest a whopping $400 billion in its public transit system, over the next thirty years. LA Metro’s 2020 Long Range Transportation Plan aims for 21% of LA County residents and 36% of jobs to be “within a 10-minute walk of high-quality rail or bus rapid transit options.” It will be the largest-ever infrastructure investment in the nation’s history.
