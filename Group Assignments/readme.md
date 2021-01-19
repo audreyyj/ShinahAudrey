@@ -1,5 +1,6 @@
-# Project Proposal 
+# 206a Group Project Proposal 
 ## Transit Oriented Development: What can Los Angeles learn from Seoul? 
+###### Audrey Jang and Shinah Park 
 
 ### Introduction 
 Los Angeles plans to invest a whopping [$400 billion](https://www.google.com/url?q=https://www.itsinternational.com/its9/news/la-approves-400bn-30-year-transport-plan&sa=D&ust=1611101708988000&usg=AOvVaw3CBMGMMdDWrwvPh7dS4IuI) in its public transit system, over the next thirty years. LA Metro’s 2020 Long Range Transportation Plan aims for 21% of LA County residents and 36% of jobs to be “within a 10-minute walk of high-quality rail or bus rapid transit options.” It will be the ["largest-ever"](https://www.gsd.harvard.edu/2019/08/facing-the-nations-largest-ever-infrastructure-investment-gsd-students-ask-who-stands-to-benefit-from-a-less-car-centric-la/) infrastructure investment in the nation’s history.
