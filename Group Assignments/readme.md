@@ -52,20 +52,21 @@ According to the Mckinsey report (2018), availability, affordability, efficiency
 
 
 ### Methodology 
-First
-In this step, we define the boundaries of the analysis sites. We use shape files provided by public databases and OpenStreetMap to check the urban form of each metropolitan area. In order to understand the basic geospatial features of Seoul and L.A., we will generate two maps depicting their street grids using the OSMnx library.
-Second
-In this step, we aim to compare the population and job density of Seoul and L.A. For each urban area, we will divide the total surface area into one-mile squares. We will join population and job location statistics to identify residential and employment hubs, examining how they are distributed within the metropolitan boundary. We will create 4 maps in this step, two for each metropolis, that shows the density and distribution of population and employment.
-Third
-In this step, we analyze how people use the rail system by exploring rail ridership data. We will append ridership data and rail station shapefiles to visualize the ridership at each station. The results will be shown by the two railway station location maps that have different buffer size proportional to ridership at each station.
-Fourth
-In this step, we will analyze how people use the bus rapid transit system by exploring bus ridership data. We will use the same method used for the rail ridership data to visualize the people’s behavior. Particularly, we aim to create a graph that shows the change in transit ridership of Seoul before and after the BRT construction.
-Fifth
-In this step, we will map the highway network of LA, which has  been identified as potential candidates for expanding its bus rapid transit. A map showing the highway-level street will be produced in this stage. We may generate a highway map for Seoul as well.  
-Sixth
-In this step, we assess the accessibility on foot for each rail station by overlaying the transit station map with the pedestrian network. Besides the street grid, we are interested in exploring proximity of transit nodes to special pedestrian networks, such as greenbelts along river tributaries. We will produce a half mile buffer from each rail station, to mark the ten-minute walk distance for planning transit-supportive density.  Two maps showing pedestrian networks will be produced in this step and a table of distance to the pedestrian network would be necessary to interpret the result.
-Seventh
-Finally, we will interpret our data and maps, analyzing and comparing the physical form of transit infrastructure, as well as the spatial distribution of people, stations, and ridership in each urban area. 
+According to the Mckinsey report (2018), availability, affordability, efficiency, and convenience are important factors that should be considered when evaluating a transit system. Fully evaluating the success of a transportation system would involve criteria beyond the scope of this study, including affordability and convenience. We focus on availability and access, which we assess by measuring and comparing ridership, proximity to population and employment centers, and connectivity to pedestrian networks.   
+
+1. In this step, we define the boundaries of the analysis sites. We use shape files provided by public databases and OpenStreetMap to check the urban form of each metropolitan area. In order to understand the basic geospatial features of Seoul and L.A., we will generate two maps depicting their street grids using the OSMnx library.
+
+2. In this step, we aim to compare the population and job density of Seoul and L.A. For each urban area, we will divide the total surface area into one-mile squares. We will join population and job location statistics to identify residential and employment hubs, examining how they are distributed within the metropolitan boundary. We will create 4 maps in this step, two for each metropolis, that shows the density and distribution of population and employment.
+
+3. In this step, we analyze how people use the rail system by exploring rail ridership data. We will append ridership data and rail station shapefiles to visualize the ridership at each station. The results will be shown by the two railway station location maps that have different buffer size proportional to ridership at each station.
+
+4. In this step, we will analyze how people use the bus rapid transit system by exploring bus ridership data. We will use the same method used for the rail ridership data to visualize the people’s behavior. Particularly, we aim to create a graph that shows the change in transit ridership of Seoul before and after the BRT construction.
+
+5. In this step, we will map the highway network of LA, which has  been identified as potential candidates for expanding its bus rapid transit. A map showing the highway-level street will be produced in this stage. We may generate a highway map for Seoul as well.  
+
+6. In this step, we assess the accessibility on foot for each rail station by overlaying the transit station map with the pedestrian network. Besides the street grid, we are interested in exploring proximity of transit nodes to special pedestrian networks, such as greenbelts along river tributaries. We will produce a half mile buffer from each rail station, to mark the ten-minute walk distance for planning transit-supportive density.  Two maps showing pedestrian networks will be produced in this step and a table of distance to the pedestrian network would be necessary to interpret the result.
+
+7. Finally, we will interpret our data and maps, analyzing and comparing the physical form of transit infrastructure, as well as the spatial distribution of people, stations, and ridership in each urban area. 
 
 
 
