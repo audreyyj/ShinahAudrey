@@ -53,9 +53,8 @@ According to the Mckinsey report (2018), availability, affordability, efficiency
 
 ### Methodology 
 
-<img src="flowchart.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+![Drag Racing](flowchart_.png)
+
 
 ### Insights 
 What substantive insights could possibly be derived from comparing two cities on opposite sides of the globe, with such different political, historical, cultural, and geographic contexts? The polycentric regional development of Asian cities results from governance structures and economic forces distinct from those driving post-suburbanization of Los Angeles and other Euro-American cities. But we still stubbornly go forth, not least because the chosen case studies reflect our group’s desire to compare the two cities with which we are personally most familiar. 
