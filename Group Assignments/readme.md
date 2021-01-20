@@ -68,7 +68,7 @@ According to the Mckinsey report (2018), availability, affordability, efficiency
 
 7. Finally, we will interpret our data and maps, analyzing and comparing the physical form of transit infrastructure, as well as the spatial distribution of people, stations, and ridership in each urban area. 
 
-![GitHub Logo](/ShinahAudrey/flowchartfinal.jpg)
+![GitHub Logo](/ShinahAudrey/Group Assignments/flowchart_.png)
 Format: ![Alt Text](url)
 
 
