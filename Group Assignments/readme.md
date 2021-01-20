@@ -53,7 +53,6 @@ According to the Mckinsey report (2018), availability, affordability, efficiency
 
 ### Methodology 
 
-![Drag Racing](flowchart_.png)
 
 
 ### Insights 
