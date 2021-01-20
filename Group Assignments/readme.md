@@ -52,6 +52,10 @@ According to the Mckinsey report (2018), availability, affordability, efficiency
 
 
 ### Methodology 
+
+
+![FLOWCHART](flowchart_.png)
+
 According to the Mckinsey report (2018), availability, affordability, efficiency, and convenience are important factors that should be considered when evaluating a transit system. Fully evaluating the success of a transportation system would involve criteria beyond the scope of this study, including affordability and convenience. We focus on availability and access, which we assess by measuring and comparing ridership, proximity to population and employment centers, and connectivity to pedestrian networks.   
 
 1. In this step, we define the boundaries of the analysis sites. We use shape files provided by public databases and OpenStreetMap to check the urban form of each metropolitan area. In order to understand the basic geospatial features of Seoul and L.A., we will generate two maps depicting their street grids using the OSMnx library.
