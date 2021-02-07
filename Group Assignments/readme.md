@@ -58,24 +58,31 @@ According to the Mckinsey report (2018), availability, affordability, efficiency
 Availability, affordability, efficiency, and convenience are important factors that should be considered when evaluating a transit system (McKinsey 2018). Fully evaluating the success of a transportation system would involve criteria beyond the scope of this study. We focus on availability and access, which we assess by measuring and comparing ridership, proximity to population and employment centers, and connectivity to pedestrian networks.   
 
 1. Identify Dense Neighborhoods - Population and Job Density
+
 In this step, we aim to compare the population and job density of Seoul and L.A. We calculated population and job densities by dong and Census Tract to  identify residential and employment hubs, examining how they are distributed within the metropolitan boundary. We created 4 maps in this step, two for each metropolis, that shows the density and distribution of population and employment.
 
 2. OSMnx Analysis I: Dense Neighborhoods
+
 We use OpenStreetMap data to examine the top most dense neighborhoods in LA and Seoul by population and employment density. We will examine the street grids, calculate common metrics of the street grid and create isochrone maps.  
  
 3. Identify Transit-Oriented Neighborhoods  - Commute Mode and Ridership 
+
 In this step, we seek to identify the neighborhoods where people travel via public transit the most by analyzing commute mode and transit ridership data.  Our results will primarily reflect point-in-time snapshots of these variables, and we will seek to compare data from the same year where availability permits. analyze how people use the rail system by exploring rail ridership data.  
 
 4. OSMnx Analysis II: Transit-Oriented Neighborhoods 
+
 We use OpenStreetMap data to examine the neighborhoods in LA and Seoul with the highest transit ridership. We will examine the street grids, calculate common metrics of the street grid and create isochrone maps. We will overlay Light Rail Transit and Bus Rapid Transit networks ridership data and rail station shapefiles to understand why these neighborhoods are transit-oriented. 
 
 5. Identify Car-Centric Neighborhoods - Commute Mode 
+
 In this step, we seek to identify the neighborhoods where people travel via car the most by analyzing commute mode data.   
 
 6. OSMnx Analysis III: Car-Centric Neighborhoods 
+
 We use OpenStreetMap data to examine the neighborhoods in LA and Seoul most concentrated with people who commute by car. We will examine the street grids, calculate common metrics of the street grid and create isochrone maps. We hope to better understand why these neighborhoods are car-centric
 
 7. Compile 
+
 We hope to generate Los Angeles- and Seoul-wide maps depicting our ten neighborhoods.  
 
 
