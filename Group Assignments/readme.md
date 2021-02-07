@@ -9,6 +9,20 @@ What will a transit-oriented Los Angeles look like? It does not have much of a d
 
 Instead, we look towards Asia -- specifically, to Seoul, South Korea. Seoul’s extensive network of rail and bus consistently ranks as one of the [best](https://www.scmp.com/lifestyle/travel-leisure/article/3075591/asia-has-top-three-mass-transit-systems-world-and-thats) in the world, supporting [65%](https://blogs.iadb.org/transporte/en/how-south-korea-is-managing-public-transportation-under-covid-19/) of average daily traffic as of August 2020. Los Angeles County and the Seoul Capital Area cover comparable swaths of land (4,751 and 4,519 sq mi, respectively), developed and developing in polycentric patterns. Observing how Seoul “sprawls densely,” one [blogger](https://entrepot.blog/2020/05/08/how-should-la-urbanize-look-to-seoul/) makes the case that the Asian metropolis provides a more natural comparison to Los Angeles than the “Euro-Atlantic core-periphery development model” of New York City or London. So we pose our research question: What insights might be derived from studying Seoul’s transportation network that could inform the transit-oriented development of Los Angeles?  
 
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+           & City of Los Angeles                                                               & Los Angeles County                                                                  & Greater Los Angeles                                                                 & City of Seoul                                   & Seoul Capital Area (수도권)                                                            \\ \hline
+Population & \cellcolor[HTML]{FFF}3.967 million (2019)                                         & \cellcolor[HTML]{FFF}10.04 million (2019)                                           & \cellcolor[HTML]{FFF}\begin{tabular}[c]{@{}c@{}}18.79 million\\ (2017)\end{tabular} & \cellcolor[HTML]{FFF}9.776 million (2017)       & \cellcolor[HTML]{FFF}25.514 million (2017)                                          \\ \hline
+Area       & \cellcolor[HTML]{FFF}\begin{tabular}[c]{@{}c@{}}503 mi² \\ 1,210 km2\end{tabular} & \cellcolor[HTML]{FFF}\begin{tabular}[c]{@{}c@{}}4,751 mi²\\ 10,510 km2\end{tabular} & \cellcolor[HTML]{FFF}33,955  mi² 87,945  km2                                        & \cellcolor[HTML]{F8F9FA}233 sq  mi²  605.21 km2 & \cellcolor[HTML]{FFF}\begin{tabular}[c]{@{}c@{}}4,519 mi²\\ 11,704 km2\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
 ### Spatial Scope
 The official boundaries of Los Angeles County and the Seoul Metropolitan Area demarcate the spatial scope of this project. We seek to explore each metropolitan area’s Light Rail Transit (LRT) and Bus Rapid Transit (BRT) networks, as well as population density, job density, commute mode and ridership data. We will use these metrics to identify ten neighborhoods in each city for more in-depth statistical analysis -- i.e., the neighborhood in each metropolitan area that (i) has the highest population density, (ii), has the highest job density, (iii) commutes by transit the most, (iv) commutes by car the most, and (v) exhibits the highest ridership levels.  
 
