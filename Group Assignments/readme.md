@@ -10,7 +10,12 @@ What will a transit-oriented Los Angeles look like? It does not have much of a d
 Instead, we look towards Asia -- specifically, to Seoul, South Korea. Seoul’s extensive network of rail and bus consistently ranks as one of the [best](https://www.scmp.com/lifestyle/travel-leisure/article/3075591/asia-has-top-three-mass-transit-systems-world-and-thats) in the world, supporting [65%](https://blogs.iadb.org/transporte/en/how-south-korea-is-managing-public-transportation-under-covid-19/) of average daily traffic as of August 2020. Los Angeles County and the Seoul Capital Area cover comparable swaths of land (4,751 and 4,519 sq mi, respectively), developed and developing in polycentric patterns. Observing how Seoul “sprawls densely,” one [blogger](https://entrepot.blog/2020/05/08/how-should-la-urbanize-look-to-seoul/) makes the case that the Asian metropolis provides a more natural comparison to Los Angeles than the “Euro-Atlantic core-periphery development model” of New York City or London. So we pose our research question: What insights might be derived from studying Seoul’s transportation network that could inform the transit-oriented development of Los Angeles?  
 
 ### Spatial Scope
-The official boundaries of Los Angeles County and the Seoul Metropolitan Area demarcate the spatial scope of this project. We seek to explore each metropolitan area’s Light Rail Transit (LRT) and Bus Rapid Transit (BRT) networks, as well as population density, job density, commute mode and ridership data. We will use these metrics to identify ten neighborhoods in each city for more in-depth statistical analysis -- i.e., the neighborhood in each metropolitan area that (i) has the highest population density, (ii), has the highest job density, (iii) commutes by transit the most, (iv) commutes by car the most, and (v) exhibits the highest ridership levels.  
+The official boundaries of Los Angeles County and the Seoul Metropolitan Area demarcate the spatial scope of this project. We seek to explore each metropolitan area’s Light Rail Transit (LRT) and Bus Rapid Transit (BRT) networks, as well as population density, job density, commute mode and ridership data. We will use these metrics to identify ten neighborhoods in each city for more in-depth statistical analysis -- i.e., the neighborhood pairs in each metropolitan area that:
+1. has the highest population density, 
+2. has the highest job density, 
+3. commutes by transit the most, 
+4. commutes by car the most, and 
+5. exhibits the highest ridership levels.  
 
 For a brief overview of the administrative divisions of [Los Angeles County](https://en.wikipedia.org/wiki/Government_of_Los_Angeles_County) and [Seoul Metropolitan Area](https://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea), see below: 
  
@@ -50,21 +55,29 @@ According to the Mckinsey report (2018), availability, affordability, efficiency
 | River                   | [This dataset](https://geohub.lacity.org/datasets/22ff59aa04284bffac727d7d2b994262_12)  includes the river, river banks and trails along the path of the Los Angeles River.                                                   | This [dataset](http://data.nsdi.go.kr/dataset/12845) shows the riverfront area. And [this](https://data.seoul.go.kr/dataList/OA-1321/S/1/datasetView.do) shows the green area in the city.                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                   |                                                                                                                                         |
 ### Methodology 
 
-According to the Mckinsey report (2018), availability, affordability, efficiency, and convenience are important factors that should be considered when evaluating a transit system. Fully evaluating the success of a transportation system would involve criteria beyond the scope of this study, including affordability and convenience. We focus on availability and access, which we assess by measuring and comparing ridership, proximity to population and employment centers, and connectivity to pedestrian networks.   
+Availability, affordability, efficiency, and convenience are important factors that should be considered when evaluating a transit system (McKinsey 2018). Fully evaluating the success of a transportation system would involve criteria beyond the scope of this study. We focus on availability and access, which we assess by measuring and comparing ridership, proximity to population and employment centers, and connectivity to pedestrian networks.   
 
-1. In this step, we define the boundaries of the analysis sites. We use shape files provided by public databases and OpenStreetMap to check the urban form of each metropolitan area. In order to understand the basic geospatial features of Seoul and L.A., we will generate two maps depicting their street grids using the OSMnx library.
+1. Identify Dense Neighborhoods - Population and Job Density
+In this step, we aim to compare the population and job density of Seoul and L.A. We calculated population and job densities by dong and Census Tract to  identify residential and employment hubs, examining how they are distributed within the metropolitan boundary. We created 4 maps in this step, two for each metropolis, that shows the density and distribution of population and employment.
 
-2. In this step, we aim to compare the population and job density of Seoul and L.A. For each urban area, we will divide the total surface area into one-mile squares. We will join population and job location statistics to identify residential and employment hubs, examining how they are distributed within the metropolitan boundary. We will create 4 maps in this step, two for each metropolis, that shows the density and distribution of population and employment.
+2. OSMnx Analysis I: Dense Neighborhoods
+We use OpenStreetMap data to examine the top most dense neighborhoods in LA and Seoul by population and employment density. We will examine the street grids, calculate common metrics of the street grid and create isochrone maps.  
+ 
+3. Identify Transit-Oriented Neighborhoods  - Commute Mode and Ridership 
+In this step, we seek to identify the neighborhoods where people travel via public transit the most by analyzing commute mode and transit ridership data.  Our results will primarily reflect point-in-time snapshots of these variables, and we will seek to compare data from the same year where availability permits. analyze how people use the rail system by exploring rail ridership data.  
 
-3. In this step, we analyze how people use the rail system by exploring rail ridership data. We will append ridership data and rail station shapefiles to visualize the ridership at each station. The results will be shown by the two railway station location maps that have different buffer size proportional to ridership at each station.
+4. OSMnx Analysis II: Transit-Oriented Neighborhoods 
+We use OpenStreetMap data to examine the neighborhoods in LA and Seoul with the highest transit ridership. We will examine the street grids, calculate common metrics of the street grid and create isochrone maps. We will overlay Light Rail Transit and Bus Rapid Transit networks ridership data and rail station shapefiles to understand why these neighborhoods are transit-oriented. 
 
-4. In this step, we will analyze how people use the bus rapid transit system by exploring bus ridership data. We will use the same method used for the rail ridership data to visualize the people’s behavior. Particularly, we aim to create a graph that shows the change in transit ridership of Seoul before and after the BRT construction.
+5. Identify Car-Centric Neighborhoods - Commute Mode 
+In this step, we seek to identify the neighborhoods where people travel via car the most by analyzing commute mode data.   
 
-5. In this step, we will map the highway network of LA, which has  been identified as potential candidates for expanding its bus rapid transit. A map showing the highway-level street will be produced in this stage. We may generate a highway map for Seoul as well.  
+6. OSMnx Analysis III: Car-Centric Neighborhoods 
+We use OpenStreetMap data to examine the neighborhoods in LA and Seoul most concentrated with people who commute by car. We will examine the street grids, calculate common metrics of the street grid and create isochrone maps. We hope to better understand why these neighborhoods are car-centric
 
-6. In this step, we assess the accessibility on foot for each rail station by overlaying the transit station map with the pedestrian network. Besides the street grid, we are interested in exploring proximity of transit nodes to special pedestrian networks, such as greenbelts along river tributaries. We will produce a half mile buffer from each rail station, to mark the ten-minute walk distance for planning transit-supportive density.  Two maps showing pedestrian networks will be produced in this step and a table of distance to the pedestrian network would be necessary to interpret the result.
+7. Compile 
+We hope to generate Los Angeles- and Seoul-wide maps depicting our ten neighborhoods.  
 
-7. Finally, we will interpret our data and maps, analyzing and comparing the physical form of transit infrastructure, as well as the spatial distribution of people, stations, and ridership in each urban area. 
 
 
 
