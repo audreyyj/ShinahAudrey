@@ -76,7 +76,7 @@ We hope to generate Los Angeles- and Seoul-wide maps depicting our ten neighborh
 
 
 
-![FLOWCHART](flowchart_.png)
+![FLOWCHART](flowchart_midterm.jpg)
 
 
 ### Insights 
