@@ -67,7 +67,7 @@ In this step, we seek to identify the neighborhoods where people travel via car 
 
 6. OSMnx Analysis III: Car-Centric Neighborhoods 
 
-We use OpenStreetMap data to examine the neighborhoods in LA and Seoul most concentrated with people who commute by car. We will examine the street grids, calculate common metrics of the street grid and create isochrone maps. We hope to better understand why these neighborhoods are car-centric
+We use OpenStreetMap data to examine the neighborhoods in LA and Seoul most concentrated with people who commute by car. We will examine the street grids, calculate common metrics of the street grid and create isochrone maps. We hope to better understand why these neighborhoods are car-centric.
 
 7. Compile 
 
