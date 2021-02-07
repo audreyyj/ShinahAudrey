@@ -26,20 +26,8 @@ For a brief overview of the administrative divisions of [Los Angeles County](htt
 We expect to use Census Tract level data for Los Angeles County and dong-level data for Seoul Metropolitan Area. 
 
 ### Data 
-We will examine data for the following information for both metropolitan areas: 
-* Boundaries 
-* Population density
-* Employment density 
-* Street grids 
-* Highway network 
-* Rail stations or lines 
-* Rail ridership
-* Bus Rapid Transit stations or lines 
-* BRT ridership 
-* Rivers/waterways
-* Pedestrian network
+The following is a complete table of our data sources. 
 
-According to the Mckinsey report (2018), availability, affordability, efficiency, and convenience are important factors that should be considered when evaluating a transit system. Fully evaluating the success of a transportation system would involve criteria beyond the scope of this study, including affordability and convenience. We focus on availability and access, which we assess by measuring and comparing ridership, proximity to population and employment centers, and connectivity to pedestrian networks.   
 | DATA                    | LOS ANGELES COUNTY                                                                                                                                                                                                            | SEOUL METROPOLITAN AREA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Boundaries/borders      | This [dataset](https://geohub.lacity.org/datasets/10f1e37c065347e693cf4e8ee753c09b_15) demarcates the official boundaries of Los Angeles County.                                                                              |  This [dataset](http://www.gisdeveloper.co.kr/?p=2332) shows the official boundaries of the entire South Korea. We can export the areas that we need. This [dataset](http://data.nsdi.go.kr/dataset/15145) shows the official boundaries of each city unit.                                                                                                                                                                                                                                                                                                                                                      |
